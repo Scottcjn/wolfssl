@@ -62,7 +62,7 @@ Crypt Test: Return code -1
 ## Building with configure
 
 The configure script in the main project directory can perform a cross-compile
-build with the the gcc-arm-none-eabi tools. Assuming the tools are installed in
+build with the gcc-arm-none-eabi tools. Assuming the tools are installed in
 your executable path:
 
 ```

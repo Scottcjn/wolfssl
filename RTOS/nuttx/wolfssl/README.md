@@ -4,7 +4,7 @@
 
 ### Installing from nuttx-apps
 
-Clone wolfssl into the the the crypto/wolfssl folder
+Clone wolfssl into the crypto/wolfssl folder
 
 ```
 git clone https://github.com/wolfSSL/wolfssl.git apps/crypto/wolfssl/wolfssl

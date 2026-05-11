@@ -544,7 +544,7 @@ else()
     set(THIS_INCLUDE_TIMER  "esp_timer")
     set(THIS_INCLUDE_PTHREAD "")
     # Let the app know that we've included the esp-tls component requirement.
-    # This is critical for use the the esp-tls component. See wolfssl esp_crt_bundle.c file.
+    # This is critical for using the esp-tls component. See wolfssl esp_crt_bundle.c file.
     set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DWOLFSSL_CMAKE_REQUIRED_ESP_TLS=1")
 endif()
 
